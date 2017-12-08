@@ -16,14 +16,14 @@
     MainScreen* mainScreen = [[MainScreen alloc] initWithStyle:UITableViewStyleGrouped];
     //--------- From this line, please customize your menu data -----------
     NSDictionary* google = @{SECTION: @"Google", MENU: @[
-                                    @{TITLE: @"Banner", CLASS: @"BasicA"},
+                                    /*@{TITLE: @"Banner", CLASS: @"BasicA"},
                                     @{TITLE: @"Interstitial", CLASS: @"BasicB"},
                                     @{TITLE: @"Native Express", CLASS: @"BasicB"},
-                                    @{TITLE: @"Native Advance", CLASS: @"GoogleNativeAdAdvanceViewController"},
-                                    @{TITLE: @"Video", CLASS: @"BasicB"}
+                                    @{TITLE: @"Video", CLASS: @"BasicB"},*/
+                                    @{TITLE: @"Native Advance", CLASS: @"GoogleNativeAdAdvanceViewController"}
                                     ]};
-    NSDictionary* facebook = @{SECTION: @"Facebook", MENU: @[
-                                           @{TITLE: @"Inter B", CLASS: @"InterB"}
+    NSDictionary* facebook = @{SECTION: @"Facebook Audience Network", MENU: @[
+                                           @{TITLE: @"Native", CLASS: @"FacebookNativeAdViewController"}
                                            ]};
 
     

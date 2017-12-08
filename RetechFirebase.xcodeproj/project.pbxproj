@@ -18,6 +18,8 @@
 		DE37D1241FD630750003C597 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE37D1231FD630750003C597 /* main.m */; };
 		DEA4D2B21FDA37D5008C2354 /* GoogleNativeContentAdView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEA4D2B01FDA37D4008C2354 /* GoogleNativeContentAdView.xib */; };
 		DEA4D2B31FDA37D5008C2354 /* GoogleNativeAppInstallAdView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEA4D2B11FDA37D4008C2354 /* GoogleNativeAppInstallAdView.xib */; };
+		DEA4D2BE1FDA788F008C2354 /* FacebookNativeAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA4D2BC1FDA788F008C2354 /* FacebookNativeAdViewController.m */; };
+		DEA4D2BF1FDA788F008C2354 /* FacebookNativeAdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEA4D2BD1FDA788F008C2354 /* FacebookNativeAdViewController.xib */; };
 		DEBE84E01FD64EFF009D3F37 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DEBE84DF1FD64EFF009D3F37 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +44,9 @@
 		DE37D1231FD630750003C597 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DEA4D2B01FDA37D4008C2354 /* GoogleNativeContentAdView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GoogleNativeContentAdView.xib; sourceTree = "<group>"; };
 		DEA4D2B11FDA37D4008C2354 /* GoogleNativeAppInstallAdView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GoogleNativeAppInstallAdView.xib; sourceTree = "<group>"; };
+		DEA4D2BB1FDA788F008C2354 /* FacebookNativeAdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FacebookNativeAdViewController.h; sourceTree = "<group>"; };
+		DEA4D2BC1FDA788F008C2354 /* FacebookNativeAdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FacebookNativeAdViewController.m; sourceTree = "<group>"; };
+		DEA4D2BD1FDA788F008C2354 /* FacebookNativeAdViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FacebookNativeAdViewController.xib; sourceTree = "<group>"; };
 		DEBE84DF1FD64EFF009D3F37 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -99,6 +104,7 @@
 		DE13EEB61FD6842F00C861BA /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				DEA4D2B51FDA75FC008C2354 /* FacebookVC */,
 				DE13EEBD1FD68CA900C861BA /* MainScreenVC */,
 				DE13EEBE1FD68CEE00C861BA /* GoogleVC */,
 			);
@@ -162,6 +168,16 @@
 				DE37D11F1FD630750003C597 /* LaunchScreen.storyboard */,
 			);
 			path = RetechFirebase;
+			sourceTree = "<group>";
+		};
+		DEA4D2B51FDA75FC008C2354 /* FacebookVC */ = {
+			isa = PBXGroup;
+			children = (
+				DEA4D2BB1FDA788F008C2354 /* FacebookNativeAdViewController.h */,
+				DEA4D2BC1FDA788F008C2354 /* FacebookNativeAdViewController.m */,
+				DEA4D2BD1FDA788F008C2354 /* FacebookNativeAdViewController.xib */,
+			);
+			name = FacebookVC;
 			sourceTree = "<group>";
 		};
 		EA39944314E1086D334C23EC /* Frameworks */ = {
@@ -233,6 +249,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEA4D2BF1FDA788F008C2354 /* FacebookNativeAdViewController.xib in Resources */,
 				DE37D1211FD630750003C597 /* LaunchScreen.storyboard in Resources */,
 				DEBE84E01FD64EFF009D3F37 /* GoogleService-Info.plist in Resources */,
 				DEA4D2B31FDA37D5008C2354 /* GoogleNativeAppInstallAdView.xib in Resources */,
@@ -304,6 +321,7 @@
 				DE13EEBA1FD685D800C861BA /* BootLogic.m in Sources */,
 				DE11C1B21FD7CA3F000060E0 /* GoogleNativeAdAdvanceViewController.m in Sources */,
 				DE37D1241FD630750003C597 /* main.m in Sources */,
+				DEA4D2BE1FDA788F008C2354 /* FacebookNativeAdViewController.m in Sources */,
 				DE37D1161FD630750003C597 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,6 +450,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HEY66UE544;
 				INFOPLIST_FILE = RetechFirebase/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = vn.retech.firebase;
@@ -446,6 +465,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HEY66UE544;
 				INFOPLIST_FILE = RetechFirebase/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = vn.retech.firebase;
