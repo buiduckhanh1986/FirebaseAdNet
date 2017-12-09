@@ -21,6 +21,8 @@
 		DEA4D2BE1FDA788F008C2354 /* FacebookNativeAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA4D2BC1FDA788F008C2354 /* FacebookNativeAdViewController.m */; };
 		DEA4D2BF1FDA788F008C2354 /* FacebookNativeAdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEA4D2BD1FDA788F008C2354 /* FacebookNativeAdViewController.xib */; };
 		DEBE84E01FD64EFF009D3F37 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DEBE84DF1FD64EFF009D3F37 /* GoogleService-Info.plist */; };
+		DEE3E37E1FDC385E00488E3F /* GoogleNativeAdExpressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE3E37D1FDC385E00488E3F /* GoogleNativeAdExpressViewController.m */; };
+		DEE3E3811FDC44D200488E3F /* GoogleBannerAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE3E3801FDC44D200488E3F /* GoogleBannerAdViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +50,10 @@
 		DEA4D2BC1FDA788F008C2354 /* FacebookNativeAdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FacebookNativeAdViewController.m; sourceTree = "<group>"; };
 		DEA4D2BD1FDA788F008C2354 /* FacebookNativeAdViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FacebookNativeAdViewController.xib; sourceTree = "<group>"; };
 		DEBE84DF1FD64EFF009D3F37 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DEE3E37C1FDC385E00488E3F /* GoogleNativeAdExpressViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoogleNativeAdExpressViewController.h; sourceTree = "<group>"; };
+		DEE3E37D1FDC385E00488E3F /* GoogleNativeAdExpressViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoogleNativeAdExpressViewController.m; sourceTree = "<group>"; };
+		DEE3E37F1FDC44D200488E3F /* GoogleBannerAdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoogleBannerAdViewController.h; sourceTree = "<group>"; };
+		DEE3E3801FDC44D200488E3F /* GoogleBannerAdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoogleBannerAdViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +142,10 @@
 				DEA4D2B11FDA37D4008C2354 /* GoogleNativeAppInstallAdView.xib */,
 				DEA4D2B01FDA37D4008C2354 /* GoogleNativeContentAdView.xib */,
 				DE11C1B11FD7CA3F000060E0 /* GoogleNativeAdAdvanceViewController.xib */,
+				DEE3E37C1FDC385E00488E3F /* GoogleNativeAdExpressViewController.h */,
+				DEE3E37D1FDC385E00488E3F /* GoogleNativeAdExpressViewController.m */,
+				DEE3E37F1FDC44D200488E3F /* GoogleBannerAdViewController.h */,
+				DEE3E3801FDC44D200488E3F /* GoogleBannerAdViewController.m */,
 			);
 			path = GoogleVC;
 			sourceTree = "<group>";
@@ -317,7 +327,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEE3E3811FDC44D200488E3F /* GoogleBannerAdViewController.m in Sources */,
 				DE13EEB21FD682C700C861BA /* MainScreen.m in Sources */,
+				DEE3E37E1FDC385E00488E3F /* GoogleNativeAdExpressViewController.m in Sources */,
 				DE13EEBA1FD685D800C861BA /* BootLogic.m in Sources */,
 				DE11C1B21FD7CA3F000060E0 /* GoogleNativeAdAdvanceViewController.m in Sources */,
 				DE37D1241FD630750003C597 /* main.m in Sources */,

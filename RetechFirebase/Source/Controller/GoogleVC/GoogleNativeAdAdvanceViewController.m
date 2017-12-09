@@ -52,7 +52,7 @@ GADVideoControllerDelegate>
         GADVideoOptions *videoOptions = [[GADVideoOptions alloc] init];
         videoOptions.startMuted = self.swVideoMuted.on;
         
-        self.adLoader = [[GADAdLoader alloc] initWithAdUnitID:kGoogleAdmobNativeAdID
+        self.adLoader = [[GADAdLoader alloc] initWithAdUnitID:kGoogleAdmobNativeAdvanceAdID
                                            rootViewController:self
                                                       adTypes:adTypes
                                                       options:@[ videoOptions ]];

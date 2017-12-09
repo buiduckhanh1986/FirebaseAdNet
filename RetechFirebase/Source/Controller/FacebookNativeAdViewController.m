@@ -22,6 +22,11 @@
     
     self.title = @"Audience Network Native Ad";
     
+#ifdef DEBUG
+    [FBAdSettings setLogLevel:FBAdLogLevelLog];
+    [FBAdSettings addTestDevice:@"4bd3b56d8c2d2b4e8e8c2919d2c243afdd9ab313"];
+#endif
+    
     // Use different ID for each ad placement in your app.
     FBNativeAd *nativeAd = [[FBNativeAd alloc] initWithPlacementID:kFacebookAudienceNativeAdPlacementID];
     
