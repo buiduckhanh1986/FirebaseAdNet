@@ -16,6 +16,7 @@
 		DE37D11E1FD630750003C597 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE37D11D1FD630750003C597 /* Assets.xcassets */; };
 		DE37D1211FD630750003C597 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE37D11F1FD630750003C597 /* LaunchScreen.storyboard */; };
 		DE37D1241FD630750003C597 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE37D1231FD630750003C597 /* main.m */; };
+		DE3CDDF11FDD2A4A00A6E82D /* FirebaseRemoteConfigDefault.plist in Resources */ = {isa = PBXBuildFile; fileRef = DE3CDDF01FDD2A4A00A6E82D /* FirebaseRemoteConfigDefault.plist */; };
 		DEA4D2B21FDA37D5008C2354 /* GoogleNativeContentAdView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEA4D2B01FDA37D4008C2354 /* GoogleNativeContentAdView.xib */; };
 		DEA4D2B31FDA37D5008C2354 /* GoogleNativeAppInstallAdView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEA4D2B11FDA37D4008C2354 /* GoogleNativeAppInstallAdView.xib */; };
 		DEA4D2BE1FDA788F008C2354 /* FacebookNativeAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA4D2BC1FDA788F008C2354 /* FacebookNativeAdViewController.m */; };
@@ -44,6 +45,7 @@
 		DE37D1201FD630750003C597 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE37D1221FD630750003C597 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE37D1231FD630750003C597 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DE3CDDF01FDD2A4A00A6E82D /* FirebaseRemoteConfigDefault.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = FirebaseRemoteConfigDefault.plist; sourceTree = "<group>"; };
 		DEA4D2B01FDA37D4008C2354 /* GoogleNativeContentAdView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GoogleNativeContentAdView.xib; sourceTree = "<group>"; };
 		DEA4D2B11FDA37D4008C2354 /* GoogleNativeAppInstallAdView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GoogleNativeAppInstallAdView.xib; sourceTree = "<group>"; };
 		DEA4D2BB1FDA788F008C2354 /* FacebookNativeAdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FacebookNativeAdViewController.h; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 			children = (
 				DE37D1221FD630750003C597 /* Info.plist */,
 				DE37D1231FD630750003C597 /* main.m */,
+				DE3CDDF01FDD2A4A00A6E82D /* FirebaseRemoteConfigDefault.plist */,
 			);
 			name = App;
 			sourceTree = "<group>";
@@ -211,6 +214,7 @@
 				DE37D10F1FD630750003C597 /* Resources */,
 				81081ED52B279D3F7FBB7FFA /* [CP] Embed Pods Frameworks */,
 				E386896C8858A47E4CEF0BA7 /* [CP] Copy Pods Resources */,
+				DE07F0461FDD1DE2009CE088 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -260,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DEA4D2BF1FDA788F008C2354 /* FacebookNativeAdViewController.xib in Resources */,
+				DE3CDDF11FDD2A4A00A6E82D /* FirebaseRemoteConfigDefault.plist in Resources */,
 				DE37D1211FD630750003C597 /* LaunchScreen.storyboard in Resources */,
 				DEBE84E01FD64EFF009D3F37 /* GoogleService-Info.plist in Resources */,
 				DEA4D2B31FDA37D5008C2354 /* GoogleNativeAppInstallAdView.xib in Resources */,
@@ -304,6 +309,19 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RetechFirebase/Pods-RetechFirebase-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		DE07F0461FDD1DE2009CE088 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = "${PODS_ROOT}/Fabric/run";
+			shellScript = "";
 		};
 		E386896C8858A47E4CEF0BA7 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
