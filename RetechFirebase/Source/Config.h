@@ -19,6 +19,8 @@ static NSString *const kGoogleAdmobNativeExpressAdID                            
 
 static NSString *const kGoogleAdmobNativeAdvanceAdID                                                = @"ca-app-pub-3940256099942544/3986624511";
 
+static NSString *const kFacebookAudienceBannerAdPlacementID                                         = @"156415834974454_156991784916859";
+
 static NSString *const kFacebookAudienceNativeAdPlacementID                                         = @"156415834974454_156416568307714"; //https://developers.facebook.com/docs/audience-network/testing?locale=vi_VN
 
 static NSString *const kFirebaseRemoteConfig_google_admob                                           = @"admob_enable";

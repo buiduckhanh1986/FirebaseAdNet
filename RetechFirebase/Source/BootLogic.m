@@ -23,6 +23,7 @@
                                     @{TITLE: @"Native Advance", CLASS: @"GoogleNativeAdAdvanceViewController"}
                                     ]};
     NSDictionary* facebook = @{SECTION: @"Facebook Audience Network", MENU: @[
+                                           @{TITLE: @"Banner", CLASS: @"FacebookBannerAdViewController"},
                                            @{TITLE: @"Native", CLASS: @"FacebookNativeAdViewController"}
                                            ]};
     NSMutableArray *menus = [NSMutableArray arrayWithCapacity:1];
@@ -73,8 +74,7 @@
     // README for more information.
     [remoteConfig fetchWithExpirationDuration:expirationDuration completionHandler:^(FIRRemoteConfigFetchStatus status, NSError *error) {
         if (status == FIRRemoteConfigFetchStatusSuccess) {
-            NSLog(@"Config fetched! %@", remoteConfig[kFirebaseRemoteConfig_facebook_audience_network].stringValue);
-            [remoteConfig activateFetched];
+            NSLog(@"Config fetched!");
         } else {
             NSLog(@"Config not fetched");
             NSLog(@"Error %@", error.localizedDescription);

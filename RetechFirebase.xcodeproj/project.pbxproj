@@ -17,6 +17,7 @@
 		DE37D1211FD630750003C597 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE37D11F1FD630750003C597 /* LaunchScreen.storyboard */; };
 		DE37D1241FD630750003C597 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE37D1231FD630750003C597 /* main.m */; };
 		DE3CDDF11FDD2A4A00A6E82D /* FirebaseRemoteConfigDefault.plist in Resources */ = {isa = PBXBuildFile; fileRef = DE3CDDF01FDD2A4A00A6E82D /* FirebaseRemoteConfigDefault.plist */; };
+		DE3CDDF41FDD387000A6E82D /* FacebookBannerAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE3CDDF31FDD387000A6E82D /* FacebookBannerAdViewController.m */; };
 		DEA4D2B21FDA37D5008C2354 /* GoogleNativeContentAdView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEA4D2B01FDA37D4008C2354 /* GoogleNativeContentAdView.xib */; };
 		DEA4D2B31FDA37D5008C2354 /* GoogleNativeAppInstallAdView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEA4D2B11FDA37D4008C2354 /* GoogleNativeAppInstallAdView.xib */; };
 		DEA4D2BE1FDA788F008C2354 /* FacebookNativeAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA4D2BC1FDA788F008C2354 /* FacebookNativeAdViewController.m */; };
@@ -46,6 +47,8 @@
 		DE37D1221FD630750003C597 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE37D1231FD630750003C597 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DE3CDDF01FDD2A4A00A6E82D /* FirebaseRemoteConfigDefault.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = FirebaseRemoteConfigDefault.plist; sourceTree = "<group>"; };
+		DE3CDDF21FDD387000A6E82D /* FacebookBannerAdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FacebookBannerAdViewController.h; sourceTree = "<group>"; };
+		DE3CDDF31FDD387000A6E82D /* FacebookBannerAdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FacebookBannerAdViewController.m; sourceTree = "<group>"; };
 		DEA4D2B01FDA37D4008C2354 /* GoogleNativeContentAdView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GoogleNativeContentAdView.xib; sourceTree = "<group>"; };
 		DEA4D2B11FDA37D4008C2354 /* GoogleNativeAppInstallAdView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GoogleNativeAppInstallAdView.xib; sourceTree = "<group>"; };
 		DEA4D2BB1FDA788F008C2354 /* FacebookNativeAdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FacebookNativeAdViewController.h; sourceTree = "<group>"; };
@@ -113,9 +116,9 @@
 		DE13EEB61FD6842F00C861BA /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				DEA4D2B51FDA75FC008C2354 /* FacebookVC */,
 				DE13EEBD1FD68CA900C861BA /* MainScreenVC */,
 				DE13EEBE1FD68CEE00C861BA /* GoogleVC */,
+				DEA4D2B51FDA75FC008C2354 /* FacebookVC */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -189,6 +192,8 @@
 				DEA4D2BB1FDA788F008C2354 /* FacebookNativeAdViewController.h */,
 				DEA4D2BC1FDA788F008C2354 /* FacebookNativeAdViewController.m */,
 				DEA4D2BD1FDA788F008C2354 /* FacebookNativeAdViewController.xib */,
+				DE3CDDF21FDD387000A6E82D /* FacebookBannerAdViewController.h */,
+				DE3CDDF31FDD387000A6E82D /* FacebookBannerAdViewController.m */,
 			);
 			name = FacebookVC;
 			sourceTree = "<group>";
@@ -352,6 +357,7 @@
 				DE11C1B21FD7CA3F000060E0 /* GoogleNativeAdAdvanceViewController.m in Sources */,
 				DE37D1241FD630750003C597 /* main.m in Sources */,
 				DEA4D2BE1FDA788F008C2354 /* FacebookNativeAdViewController.m in Sources */,
+				DE3CDDF41FDD387000A6E82D /* FacebookBannerAdViewController.m in Sources */,
 				DE37D1161FD630750003C597 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
