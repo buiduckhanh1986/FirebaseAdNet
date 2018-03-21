@@ -35,6 +35,7 @@
     
     float frameWidth= self.view.bounds.size.width;
     
+    //viewBannerAd = [[GADBannerView alloc] initWithFrame:CGRectMake(0, 0, frameWidth, frameWidth * 628/1200)];
     viewBannerAd = [[GADBannerView alloc] initWithFrame:CGRectMake(0, 0, frameWidth, 50)];
     
     [self.view addSubview:viewBannerAd];

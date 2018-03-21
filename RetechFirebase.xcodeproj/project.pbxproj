@@ -8,29 +8,39 @@
 
 /* Begin PBXBuildFile section */
 		367707B9F9322A13A1610D74 /* libPods-RetechFirebase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 756DEA3A3CACDB8FF340934E /* libPods-RetechFirebase.a */; };
+		DE08BCBC205FA80400993993 /* UnityRewardVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE08BCBB205FA80400993993 /* UnityRewardVideoViewController.m */; };
+		DE08BCBE205FADA200993993 /* UnityRewardVideoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE08BCBD205FADA200993993 /* UnityRewardVideoViewController.xib */; };
 		DE11C1B21FD7CA3F000060E0 /* GoogleNativeAdAdvanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE11C1B01FD7CA3F000060E0 /* GoogleNativeAdAdvanceViewController.m */; };
 		DE11C1B31FD7CA3F000060E0 /* GoogleNativeAdAdvanceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE11C1B11FD7CA3F000060E0 /* GoogleNativeAdAdvanceViewController.xib */; };
 		DE13EEB21FD682C700C861BA /* MainScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = DE13EEB11FD682C700C861BA /* MainScreen.m */; };
 		DE13EEBA1FD685D800C861BA /* BootLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = DE13EEB91FD685D800C861BA /* BootLogic.m */; };
+		DE360F1E1FEF5D4900195661 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DE360F1D1FEF5D4900195661 /* GoogleService-Info.plist */; };
 		DE37D1161FD630750003C597 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE37D1151FD630750003C597 /* AppDelegate.m */; };
 		DE37D11E1FD630750003C597 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE37D11D1FD630750003C597 /* Assets.xcassets */; };
 		DE37D1211FD630750003C597 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE37D11F1FD630750003C597 /* LaunchScreen.storyboard */; };
 		DE37D1241FD630750003C597 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE37D1231FD630750003C597 /* main.m */; };
 		DE3CDDF11FDD2A4A00A6E82D /* FirebaseRemoteConfigDefault.plist in Resources */ = {isa = PBXBuildFile; fileRef = DE3CDDF01FDD2A4A00A6E82D /* FirebaseRemoteConfigDefault.plist */; };
 		DE3CDDF41FDD387000A6E82D /* FacebookBannerAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE3CDDF31FDD387000A6E82D /* FacebookBannerAdViewController.m */; };
+		DE4B62DE206262DC0039DA37 /* GoogleRewardVideoAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4B62DC206262DC0039DA37 /* GoogleRewardVideoAdViewController.m */; };
+		DE4B62DF206262DC0039DA37 /* GoogleRewardVideoAdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE4B62DD206262DC0039DA37 /* GoogleRewardVideoAdViewController.xib */; };
+		DE4B62E320626A040039DA37 /* GoogleInterstitialAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4B62E120626A040039DA37 /* GoogleInterstitialAdViewController.m */; };
+		DE4B62E420626A040039DA37 /* GoogleInterstitialAdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE4B62E220626A040039DA37 /* GoogleInterstitialAdViewController.xib */; };
 		DEA4D2B21FDA37D5008C2354 /* GoogleNativeContentAdView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEA4D2B01FDA37D4008C2354 /* GoogleNativeContentAdView.xib */; };
 		DEA4D2B31FDA37D5008C2354 /* GoogleNativeAppInstallAdView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEA4D2B11FDA37D4008C2354 /* GoogleNativeAppInstallAdView.xib */; };
 		DEA4D2BE1FDA788F008C2354 /* FacebookNativeAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA4D2BC1FDA788F008C2354 /* FacebookNativeAdViewController.m */; };
 		DEA4D2BF1FDA788F008C2354 /* FacebookNativeAdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEA4D2BD1FDA788F008C2354 /* FacebookNativeAdViewController.xib */; };
-		DEBE84E01FD64EFF009D3F37 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DEBE84DF1FD64EFF009D3F37 /* GoogleService-Info.plist */; };
 		DEE3E37E1FDC385E00488E3F /* GoogleNativeAdExpressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE3E37D1FDC385E00488E3F /* GoogleNativeAdExpressViewController.m */; };
 		DEE3E3811FDC44D200488E3F /* GoogleBannerAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE3E3801FDC44D200488E3F /* GoogleBannerAdViewController.m */; };
+		DEF99EB91FDD97FD0076B2F4 /* TestAllNativeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF99EB81FDD97FD0076B2F4 /* TestAllNativeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		756DEA3A3CACDB8FF340934E /* libPods-RetechFirebase.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RetechFirebase.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8354075FF29E04E14F853A98 /* Pods-RetechFirebase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetechFirebase.release.xcconfig"; path = "Pods/Target Support Files/Pods-RetechFirebase/Pods-RetechFirebase.release.xcconfig"; sourceTree = "<group>"; };
 		A95559D8C52B3695F36ABFAB /* Pods-RetechFirebase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetechFirebase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RetechFirebase/Pods-RetechFirebase.debug.xcconfig"; sourceTree = "<group>"; };
+		DE08BCBA205FA80400993993 /* UnityRewardVideoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UnityRewardVideoViewController.h; sourceTree = "<group>"; };
+		DE08BCBB205FA80400993993 /* UnityRewardVideoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnityRewardVideoViewController.m; sourceTree = "<group>"; };
+		DE08BCBD205FADA200993993 /* UnityRewardVideoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UnityRewardVideoViewController.xib; sourceTree = "<group>"; };
 		DE11C1AF1FD7CA3F000060E0 /* GoogleNativeAdAdvanceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoogleNativeAdAdvanceViewController.h; sourceTree = "<group>"; };
 		DE11C1B01FD7CA3F000060E0 /* GoogleNativeAdAdvanceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoogleNativeAdAdvanceViewController.m; sourceTree = "<group>"; };
 		DE11C1B11FD7CA3F000060E0 /* GoogleNativeAdAdvanceViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GoogleNativeAdAdvanceViewController.xib; sourceTree = "<group>"; };
@@ -39,6 +49,8 @@
 		DE13EEB91FD685D800C861BA /* BootLogic.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BootLogic.m; sourceTree = "<group>"; };
 		DE13EEBB1FD685E500C861BA /* BootLogic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BootLogic.h; sourceTree = "<group>"; };
 		DE13EEBC1FD68B8200C861BA /* Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		DE360F1D1FEF5D4900195661 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "RetechFirebase/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DE360F1F1FEF603500195661 /* RetechFirebase.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RetechFirebase.entitlements; sourceTree = "<group>"; };
 		DE37D1111FD630750003C597 /* RetechFirebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RetechFirebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE37D1141FD630750003C597 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DE37D1151FD630750003C597 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -49,16 +61,23 @@
 		DE3CDDF01FDD2A4A00A6E82D /* FirebaseRemoteConfigDefault.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = FirebaseRemoteConfigDefault.plist; sourceTree = "<group>"; };
 		DE3CDDF21FDD387000A6E82D /* FacebookBannerAdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FacebookBannerAdViewController.h; sourceTree = "<group>"; };
 		DE3CDDF31FDD387000A6E82D /* FacebookBannerAdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FacebookBannerAdViewController.m; sourceTree = "<group>"; };
+		DE4B62DB206262DC0039DA37 /* GoogleRewardVideoAdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoogleRewardVideoAdViewController.h; sourceTree = "<group>"; };
+		DE4B62DC206262DC0039DA37 /* GoogleRewardVideoAdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoogleRewardVideoAdViewController.m; sourceTree = "<group>"; };
+		DE4B62DD206262DC0039DA37 /* GoogleRewardVideoAdViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GoogleRewardVideoAdViewController.xib; sourceTree = "<group>"; };
+		DE4B62E020626A040039DA37 /* GoogleInterstitialAdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoogleInterstitialAdViewController.h; sourceTree = "<group>"; };
+		DE4B62E120626A040039DA37 /* GoogleInterstitialAdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoogleInterstitialAdViewController.m; sourceTree = "<group>"; };
+		DE4B62E220626A040039DA37 /* GoogleInterstitialAdViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GoogleInterstitialAdViewController.xib; sourceTree = "<group>"; };
 		DEA4D2B01FDA37D4008C2354 /* GoogleNativeContentAdView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GoogleNativeContentAdView.xib; sourceTree = "<group>"; };
 		DEA4D2B11FDA37D4008C2354 /* GoogleNativeAppInstallAdView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GoogleNativeAppInstallAdView.xib; sourceTree = "<group>"; };
 		DEA4D2BB1FDA788F008C2354 /* FacebookNativeAdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FacebookNativeAdViewController.h; sourceTree = "<group>"; };
 		DEA4D2BC1FDA788F008C2354 /* FacebookNativeAdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FacebookNativeAdViewController.m; sourceTree = "<group>"; };
 		DEA4D2BD1FDA788F008C2354 /* FacebookNativeAdViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FacebookNativeAdViewController.xib; sourceTree = "<group>"; };
-		DEBE84DF1FD64EFF009D3F37 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		DEE3E37C1FDC385E00488E3F /* GoogleNativeAdExpressViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoogleNativeAdExpressViewController.h; sourceTree = "<group>"; };
 		DEE3E37D1FDC385E00488E3F /* GoogleNativeAdExpressViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoogleNativeAdExpressViewController.m; sourceTree = "<group>"; };
 		DEE3E37F1FDC44D200488E3F /* GoogleBannerAdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoogleBannerAdViewController.h; sourceTree = "<group>"; };
 		DEE3E3801FDC44D200488E3F /* GoogleBannerAdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoogleBannerAdViewController.m; sourceTree = "<group>"; };
+		DEF99EB71FDD97FD0076B2F4 /* TestAllNativeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestAllNativeViewController.h; sourceTree = "<group>"; };
+		DEF99EB81FDD97FD0076B2F4 /* TestAllNativeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestAllNativeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +99,16 @@
 				8354075FF29E04E14F853A98 /* Pods-RetechFirebase.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		DE08BCB9205FA58600993993 /* UnityVC */ = {
+			isa = PBXGroup;
+			children = (
+				DE08BCBA205FA80400993993 /* UnityRewardVideoViewController.h */,
+				DE08BCBB205FA80400993993 /* UnityRewardVideoViewController.m */,
+				DE08BCBD205FADA200993993 /* UnityRewardVideoViewController.xib */,
+			);
+			path = UnityVC;
 			sourceTree = "<group>";
 		};
 		DE13EEB31FD6832F00C861BA /* App */ = {
@@ -116,7 +145,9 @@
 		DE13EEB61FD6842F00C861BA /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				DE08BCB9205FA58600993993 /* UnityVC */,
 				DE13EEBD1FD68CA900C861BA /* MainScreenVC */,
+				DEF99EB61FDD97CE0076B2F4 /* TestVC */,
 				DE13EEBE1FD68CEE00C861BA /* GoogleVC */,
 				DEA4D2B51FDA75FC008C2354 /* FacebookVC */,
 			);
@@ -152,6 +183,12 @@
 				DEE3E37D1FDC385E00488E3F /* GoogleNativeAdExpressViewController.m */,
 				DEE3E37F1FDC44D200488E3F /* GoogleBannerAdViewController.h */,
 				DEE3E3801FDC44D200488E3F /* GoogleBannerAdViewController.m */,
+				DE4B62DB206262DC0039DA37 /* GoogleRewardVideoAdViewController.h */,
+				DE4B62DC206262DC0039DA37 /* GoogleRewardVideoAdViewController.m */,
+				DE4B62DD206262DC0039DA37 /* GoogleRewardVideoAdViewController.xib */,
+				DE4B62E020626A040039DA37 /* GoogleInterstitialAdViewController.h */,
+				DE4B62E120626A040039DA37 /* GoogleInterstitialAdViewController.m */,
+				DE4B62E220626A040039DA37 /* GoogleInterstitialAdViewController.xib */,
 			);
 			path = GoogleVC;
 			sourceTree = "<group>";
@@ -159,6 +196,7 @@
 		DE37D1081FD630750003C597 = {
 			isa = PBXGroup;
 			children = (
+				DE360F1D1FEF5D4900195661 /* GoogleService-Info.plist */,
 				DE37D1131FD630750003C597 /* RetechFirebase */,
 				DE37D1121FD630750003C597 /* Products */,
 				226A22B8025B91F9A658824B /* Pods */,
@@ -177,9 +215,9 @@
 		DE37D1131FD630750003C597 /* RetechFirebase */ = {
 			isa = PBXGroup;
 			children = (
+				DE360F1F1FEF603500195661 /* RetechFirebase.entitlements */,
 				DE13EEB31FD6832F00C861BA /* App */,
 				DE13EEB41FD6833900C861BA /* Source */,
-				DEBE84DF1FD64EFF009D3F37 /* GoogleService-Info.plist */,
 				DE37D11D1FD630750003C597 /* Assets.xcassets */,
 				DE37D11F1FD630750003C597 /* LaunchScreen.storyboard */,
 			);
@@ -196,6 +234,15 @@
 				DE3CDDF31FDD387000A6E82D /* FacebookBannerAdViewController.m */,
 			);
 			name = FacebookVC;
+			sourceTree = "<group>";
+		};
+		DEF99EB61FDD97CE0076B2F4 /* TestVC */ = {
+			isa = PBXGroup;
+			children = (
+				DEF99EB71FDD97FD0076B2F4 /* TestAllNativeViewController.h */,
+				DEF99EB81FDD97FD0076B2F4 /* TestAllNativeViewController.m */,
+			);
+			path = TestVC;
 			sourceTree = "<group>";
 		};
 		EA39944314E1086D334C23EC /* Frameworks */ = {
@@ -242,6 +289,11 @@
 					DE37D1101FD630750003C597 = {
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -269,11 +321,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				DEA4D2BF1FDA788F008C2354 /* FacebookNativeAdViewController.xib in Resources */,
+				DE360F1E1FEF5D4900195661 /* GoogleService-Info.plist in Resources */,
 				DE3CDDF11FDD2A4A00A6E82D /* FirebaseRemoteConfigDefault.plist in Resources */,
 				DE37D1211FD630750003C597 /* LaunchScreen.storyboard in Resources */,
-				DEBE84E01FD64EFF009D3F37 /* GoogleService-Info.plist in Resources */,
+				DE4B62E420626A040039DA37 /* GoogleInterstitialAdViewController.xib in Resources */,
+				DE08BCBE205FADA200993993 /* UnityRewardVideoViewController.xib in Resources */,
 				DEA4D2B31FDA37D5008C2354 /* GoogleNativeAppInstallAdView.xib in Resources */,
 				DEA4D2B21FDA37D5008C2354 /* GoogleNativeContentAdView.xib in Resources */,
+				DE4B62DF206262DC0039DA37 /* GoogleRewardVideoAdViewController.xib in Resources */,
 				DE11C1B31FD7CA3F000060E0 /* GoogleNativeAdAdvanceViewController.xib in Resources */,
 				DE37D11E1FD630750003C597 /* Assets.xcassets in Resources */,
 			);
@@ -353,11 +408,15 @@
 				DEE3E3811FDC44D200488E3F /* GoogleBannerAdViewController.m in Sources */,
 				DE13EEB21FD682C700C861BA /* MainScreen.m in Sources */,
 				DEE3E37E1FDC385E00488E3F /* GoogleNativeAdExpressViewController.m in Sources */,
+				DEF99EB91FDD97FD0076B2F4 /* TestAllNativeViewController.m in Sources */,
+				DE08BCBC205FA80400993993 /* UnityRewardVideoViewController.m in Sources */,
 				DE13EEBA1FD685D800C861BA /* BootLogic.m in Sources */,
 				DE11C1B21FD7CA3F000060E0 /* GoogleNativeAdAdvanceViewController.m in Sources */,
+				DE4B62DE206262DC0039DA37 /* GoogleRewardVideoAdViewController.m in Sources */,
 				DE37D1241FD630750003C597 /* main.m in Sources */,
 				DEA4D2BE1FDA788F008C2354 /* FacebookNativeAdViewController.m in Sources */,
 				DE3CDDF41FDD387000A6E82D /* FacebookBannerAdViewController.m in Sources */,
+				DE4B62E320626A040039DA37 /* GoogleInterstitialAdViewController.m in Sources */,
 				DE37D1161FD630750003C597 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -485,11 +544,12 @@
 			baseConfigurationReference = A95559D8C52B3695F36ABFAB /* Pods-RetechFirebase.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RetechFirebase/RetechFirebase.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = HEY66UE544;
+				DEVELOPMENT_TEAM = A5URFHY79K;
 				INFOPLIST_FILE = RetechFirebase/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = vn.retech.firebase;
+				PRODUCT_BUNDLE_IDENTIFIER = vn.retech.firebaseadnet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -500,11 +560,12 @@
 			baseConfigurationReference = 8354075FF29E04E14F853A98 /* Pods-RetechFirebase.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RetechFirebase/RetechFirebase.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = HEY66UE544;
+				DEVELOPMENT_TEAM = A5URFHY79K;
 				INFOPLIST_FILE = RetechFirebase/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = vn.retech.firebase;
+				PRODUCT_BUNDLE_IDENTIFIER = vn.retech.firebaseadnet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

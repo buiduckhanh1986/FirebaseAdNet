@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GoogleInterstitialAdViewController">
+            <connections>
+                <outlet property="gameText" destination="UHS-cG-wbk" id="JqE-ax-xRj"/>
+                <outlet property="playAgainButton" destination="dVu-UF-wQt" id="Eel-0F-erz"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dVu-UF-wQt">
+                    <rect key="frame" x="128" y="402" width="109" height="41"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                    <state key="normal" title="Play Again">
+                        <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="playAgain:" destination="-1" eventType="touchUpInside" id="ARa-Sq-vBN"/>
+                    </connections>
+                </button>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Game Started" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UHS-cG-wbk">
+                    <rect key="frame" x="111" y="353" width="143" height="29"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Impossible Game" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m1k-u6-iWS">
+                    <rect key="frame" x="43" y="56" width="280" height="36"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="UHS-cG-wbk" firstAttribute="centerX" secondItem="dVu-UF-wQt" secondAttribute="centerX" id="2El-hn-sxP"/>
+                <constraint firstItem="dVu-UF-wQt" firstAttribute="top" secondItem="UHS-cG-wbk" secondAttribute="bottom" constant="20" id="evt-nC-W70"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="bottom" secondItem="dVu-UF-wQt" secondAttribute="bottom" constant="335" id="gpa-CY-1Hc"/>
+                <constraint firstItem="m1k-u6-iWS" firstAttribute="centerX" secondItem="UHS-cG-wbk" secondAttribute="centerX" id="pXs-UH-M4z"/>
+                <constraint firstItem="m1k-u6-iWS" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="43" id="tNU-2I-0si"/>
+                <constraint firstItem="m1k-u6-iWS" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="12" id="utM-E8-OBs"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+        </view>
+    </objects>
+</document>

@@ -15,10 +15,14 @@
 {
     MainScreen* mainScreen = [[MainScreen alloc] initWithStyle:UITableViewStyleGrouped];
     //--------- From this line, please customize your menu data -----------
+    NSDictionary* test = @{SECTION: @"Test Combine In One ", MENU: @[
+                                       @{TITLE: @"All Native", CLASS: @"TestAllNativeViewController"}
+                                       ]};
+    
     NSDictionary* google = @{SECTION: @"Google Admob", MENU: @[
                                     @{TITLE: @"Banner", CLASS: @"GoogleBannerAdViewController"},
-                                    /*@{TITLE: @"Interstitial", CLASS: @"BasicB"},
-                                    @{TITLE: @"Video", CLASS: @"BasicB"},*/
+                                    @{TITLE: @"Interstitial", CLASS: @"GoogleInterstitialAdViewController"},
+                                    @{TITLE: @"Reward Video", CLASS: @"GoogleRewardVideoAdViewController"},
                                     @{TITLE: @"Native Express", CLASS: @"GoogleNativeAdExpressViewController"},
                                     @{TITLE: @"Native Advance", CLASS: @"GoogleNativeAdAdvanceViewController"}
                                     ]};
@@ -26,9 +30,15 @@
                                            @{TITLE: @"Banner", CLASS: @"FacebookBannerAdViewController"},
                                            @{TITLE: @"Native", CLASS: @"FacebookNativeAdViewController"}
                                            ]};
+    NSDictionary* unity = @{SECTION: @"Unity Ads", MENU: @[
+                                       @{TITLE: @"Video", CLASS: @"UnityRewardVideoViewController"}
+                                       ]};
+    
     NSMutableArray *menus = [NSMutableArray arrayWithCapacity:1];
+    [menus addObject:test];
     [menus addObject:google];
     [menus addObject:facebook];
+    [menus addObject:unity];
     
     mainScreen.menu = [self loadRemoteConfig:menus]; //@[google, facebook];
     mainScreen.title = @"Adnet";
@@ -90,7 +100,7 @@
     
     if(![admob isEqualToString:@"1"])
     {
-        [menus removeObjectAtIndex:0];
+        [menus removeObjectAtIndex:1];
     }
     
     if(![audience isEqualToString:@"1"])
